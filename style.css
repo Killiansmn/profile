@@ -23,11 +23,10 @@ h2{
 	  color: darkblue
 
 }
-div{
+.white-card{
 
    background-color: white;
     padding: 10px;
-    width: 700px;
     margin: 10px auto;
     border-radius: 8px;
     box-shadow: 3px 5px 10px rgb(56 80 179);
@@ -36,4 +35,22 @@ div{
 i{
 	color: rgb(28 80 160);
     font-size: 65px;
+
+
+}
+.container{
+	margin: 20px auto;
+}
+@media (max-width: 960px) {
+	.container{
+		width: 700px
+	}
+@media (max-width: 720px) {
+	.container{
+		width: 500px
+	}
+@media (max-width: 540px) {
+	.container{
+		width: 300px
+	}
 }
